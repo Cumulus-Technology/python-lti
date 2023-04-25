@@ -40,10 +40,10 @@ LTI_PROPERTY_LIST = [
 
 
 LTI_ROLES = {
-    u'staff': [u'Administrator', u'Instructor', ],
-    u'instructor': [u'Instructor', ],
-    u'administrator': [u'Administrator', ],
-    u'student': [u'Student', u'Learner', ]
+    u'staff': [u'urn:lti:instrole:ims/lis/Administrator', u'urn:lti:instrole:ims/lis/Instructor', ],
+    u'instructor': [u'urn:lti:instrole:ims/lis/Instructor', ],
+    u'administrator': [u'urn:lti:instrole:ims/lis/Administrator', ],
+    u'student': [u'urn:lti:instrole:ims/lis/Student', u'urn:lti:role:ims/lis/Learner', ]
     # There is also a special role u'any' that ignores role check
 }
 
