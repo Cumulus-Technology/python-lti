@@ -22,6 +22,7 @@ LTI_PROPERTY_LIST = [
     'oauth_nonce',
     'context_label',
     'context_id',
+    'custom_canvas_course_id',
     'resource_link_title',
     'resource_link_id',
     'lis_person_contact_email_primary',
